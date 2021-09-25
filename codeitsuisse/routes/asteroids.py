@@ -78,7 +78,16 @@ def algorithm (text):
         origin += 1
         total = 0
 
-
+    adder = 0
+    if (text[final_origin] == text[final_origin + 1]):
+        while (True):
+            if (text[final_origin] == text[final_origin + adder]):
+                adder += 1
+            else: 
+                break
+    adder = int(adder / 2)
+    print("adder:" + str(adder))
+    final_origin += adder
     if (final_score - int(final_score) == 0):
         final_score = int(final_score)
     return final_score, final_origin

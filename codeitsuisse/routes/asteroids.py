@@ -72,14 +72,13 @@ def algorithm (text):
                         break
         total += calc(sub_ttl)
         sub_ttl = 1
-        print("Origin: " + str(origin) + " Score: " + str(total))
         if (total > final_score):
             final_score = total
             final_origin = origin
         origin += 1
         total = 0
 
-    return final_score, origin
+    return final_score, final_origin
 
 def calc (num):
     if num >= 10:

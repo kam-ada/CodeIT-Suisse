@@ -78,6 +78,9 @@ def algorithm (text):
         origin += 1
         total = 0
 
+
+    if (final_score - int(final_score) == 0):
+        final_score = int(final_score)
     return final_score, final_origin
 
 def calc (num):

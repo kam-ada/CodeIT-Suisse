@@ -85,7 +85,7 @@ def steps(grid, target):
     return -1
 
 def part2(grid):
-    new_grid = copy.deepcopy(grid)
+    """new_grid = copy.deepcopy(grid)
     old_grid = copy.deepcopy(grid)
     time = 0
     new_infected = 0
@@ -124,7 +124,8 @@ def part2(grid):
                         return -1
             return time - 1
 
-        old_grid = copy.deepcopy(new_grid)
+        old_grid = copy.deepcopy(new_grid)"""
+        return 0
 
 def part3(grid):
     """new_grid = copy.deepcopy(grid)

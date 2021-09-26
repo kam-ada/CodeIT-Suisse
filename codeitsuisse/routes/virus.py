@@ -189,7 +189,8 @@ def part3(grid):
         old_grid = copy.deepcopy(new_grid)
 
 def part4(grid):
-    new_g = infected_grid(grid)
+    return 0
+    """new_g = infected_grid(grid)
     print(new_g)
     infected = []
     healthy = []
@@ -210,7 +211,7 @@ def part4(grid):
             temp = 0
         nrg += min
         min = 100
-    return nrg
+    return nrg"""
 
 def infected_grid(grid):
     new_grid = copy.deepcopy(grid)

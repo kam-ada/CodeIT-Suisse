@@ -1,10 +1,11 @@
-These instruction are to help you solve a test challenge "Calculate Square". Instruction to this test challenge can be found at https://calculate-square.herokuapp.com/instructions
+2021 CodeIT Suisse (HK)
+25-26 sept 2021
 
-Step by step
+Heroku for server hosting
+Postman for API testing
 
-As per the instruction you have to implement a post endpoint /square
+Steps:
+Create new file in route, set endpoint and method -> write code -> run "python app.py" in terminal -> test with local url on postman
+-> Commit changes to github -> Deploy on heroku -> test with server url
 
-- Go to `square.py` under `codeitsuisse/routes` folder in this template and you will find a post method with name  `/square` 
-- write your implementation in this method. This method will be the entry point when you submit your solution for evaluation
-- Note the __init__.py file in each folder. This file makes python treat directories containing it to be loaded in a module
-- Follow similar approach to implement actual challenges during the event
+Solutions
